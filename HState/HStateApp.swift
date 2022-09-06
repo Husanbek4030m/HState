@@ -13,8 +13,9 @@ struct HStateApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterPage()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environmentObject(Users())
         }
     }
 }

@@ -8,21 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8DBA699728C7781C007E0CC1 /* HStateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA699628C7781C007E0CC1 /* HStateApp.swift */; };
-		8DBA699928C7781C007E0CC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA699828C7781C007E0CC1 /* ContentView.swift */; };
 		8DBA699B28C7781E007E0CC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA699A28C7781E007E0CC1 /* Assets.xcassets */; };
 		8DBA699E28C7781E007E0CC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DBA699D28C7781E007E0CC1 /* Preview Assets.xcassets */; };
 		8DBA69A028C7781E007E0CC1 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA699F28C7781E007E0CC1 /* Persistence.swift */; };
 		8DBA69A328C7781E007E0CC1 /* HState.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69A128C7781E007E0CC1 /* HState.xcdatamodeld */; };
+		8DBA69AC28C77851007E0CC1 /* StarterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69AB28C77851007E0CC1 /* StarterPage.swift */; };
+		8DBA69AE28C778A8007E0CC1 /* ObsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69AD28C778A8007E0CC1 /* ObsPage.swift */; };
+		8DBA69B028C778B5007E0CC1 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69AF28C778B5007E0CC1 /* Users.swift */; };
+		8DBA69B228C77904007E0CC1 /* ObsDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69B128C77904007E0CC1 /* ObsDetailPage.swift */; };
+		8DBA69B628C785ED007E0CC1 /* EnvPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69B528C785ED007E0CC1 /* EnvPage.swift */; };
+		8DBA69B828C78653007E0CC1 /* EnvDetailPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DBA69B728C78653007E0CC1 /* EnvDetailPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8DBA699328C7781C007E0CC1 /* HState.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HState.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DBA699628C7781C007E0CC1 /* HStateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStateApp.swift; sourceTree = "<group>"; };
-		8DBA699828C7781C007E0CC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8DBA699A28C7781E007E0CC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DBA699D28C7781E007E0CC1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8DBA699F28C7781E007E0CC1 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		8DBA69A228C7781E007E0CC1 /* HState.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HState.xcdatamodel; sourceTree = "<group>"; };
+		8DBA69AB28C77851007E0CC1 /* StarterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterPage.swift; sourceTree = "<group>"; };
+		8DBA69AD28C778A8007E0CC1 /* ObsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsPage.swift; sourceTree = "<group>"; };
+		8DBA69AF28C778B5007E0CC1 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		8DBA69B128C77904007E0CC1 /* ObsDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsDetailPage.swift; sourceTree = "<group>"; };
+		8DBA69B528C785ED007E0CC1 /* EnvPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvPage.swift; sourceTree = "<group>"; };
+		8DBA69B728C78653007E0CC1 /* EnvDetailPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvDetailPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +65,10 @@
 		8DBA699528C7781C007E0CC1 /* HState */ = {
 			isa = PBXGroup;
 			children = (
+				8DBA69AA28C7783D007E0CC1 /* Screens */,
+				8DBA69A928C77837007E0CC1 /* Utils */,
 				8DBA699628C7781C007E0CC1 /* HStateApp.swift */,
-				8DBA699828C7781C007E0CC1 /* ContentView.swift */,
+				8DBA69AB28C77851007E0CC1 /* StarterPage.swift */,
 				8DBA699A28C7781E007E0CC1 /* Assets.xcassets */,
 				8DBA699F28C7781E007E0CC1 /* Persistence.swift */,
 				8DBA69A128C7781E007E0CC1 /* HState.xcdatamodeld */,
@@ -71,6 +83,25 @@
 				8DBA699D28C7781E007E0CC1 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8DBA69A928C77837007E0CC1 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA69AF28C778B5007E0CC1 /* Users.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8DBA69AA28C7783D007E0CC1 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				8DBA69AD28C778A8007E0CC1 /* ObsPage.swift */,
+				8DBA69B128C77904007E0CC1 /* ObsDetailPage.swift */,
+				8DBA69B528C785ED007E0CC1 /* EnvPage.swift */,
+				8DBA69B728C78653007E0CC1 /* EnvDetailPage.swift */,
+			);
+			path = Screens;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,8 +175,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DBA69A328C7781E007E0CC1 /* HState.xcdatamodeld in Sources */,
+				8DBA69B228C77904007E0CC1 /* ObsDetailPage.swift in Sources */,
+				8DBA69B828C78653007E0CC1 /* EnvDetailPage.swift in Sources */,
+				8DBA69AC28C77851007E0CC1 /* StarterPage.swift in Sources */,
 				8DBA69A028C7781E007E0CC1 /* Persistence.swift in Sources */,
-				8DBA699928C7781C007E0CC1 /* ContentView.swift in Sources */,
+				8DBA69AE28C778A8007E0CC1 /* ObsPage.swift in Sources */,
+				8DBA69B028C778B5007E0CC1 /* Users.swift in Sources */,
+				8DBA69B628C785ED007E0CC1 /* EnvPage.swift in Sources */,
 				8DBA699728C7781C007E0CC1 /* HStateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
